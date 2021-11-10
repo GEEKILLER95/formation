@@ -1,0 +1,11 @@
+p {
+    height: auto;
+    width: 100px;
+    padding: 55px 40px 25px 40px;
+    margin: 100px 0px 20px 0px;
+    background-color: cadetblue;
+    border: 5px solid black;
+}
+#p1 {
+    background-color: red;
+}

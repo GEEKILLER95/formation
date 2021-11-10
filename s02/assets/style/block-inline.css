@@ -1,0 +1,25 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: blue;
+    background-color: red;
+}
+p {
+    padding : 1em;
+    border : 1px solid black;
+    width: 500px;
+}
+span {
+    padding : 0.5em;
+    border : 1px solid green;
+    background-color: yellow;
+}
+.inline {
+    display: inline;
+}
+.block {
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}

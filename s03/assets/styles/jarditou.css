@@ -1,0 +1,36 @@
+#logo {
+    float: left;
+    width: 27%;
+}
+#ban{
+    background-image: url(../images/jarditouBannière.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+#title {
+    float: right;
+    text-align: right;
+    padding: 10px;
+}
+h3 {
+    float: left;
+    padding: 5px;
+}
+#lien {
+    float: left;
+    padding: 10px 15px;
+}
+form {
+    float: right;
+    padding: 8px;
+}
+.col-8 {
+}
+.col-lg-4 {
+    background-color: orange;
+}
+#foot {
+    background-color: grey;
+}

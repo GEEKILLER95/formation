@@ -1,0 +1,32 @@
+p {
+    width: 450px;
+    height: auto;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0 20px 0;
+    float: left;
+    text-align: justify;
+    overflow: auto;
+}
+h1 {
+    color: blue;
+    padding-bottom: 50px;
+}
+body {
+    background-image: url(../images/car.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+}
+img {
+    padding: 10px 20px 20px 0px;
+    float: left;
+    width: 300px;
+}
+video {
+    height: 300px;
+}
