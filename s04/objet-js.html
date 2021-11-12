@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<p id="couleur"></p>
+
+<script>
+// Create an object:
+const person = {
+  firstName: "BMW",
+  lastName: "Grise",
+  id: "350ch",
+  fullName : function() {
+    return "ma " + this.firstName + " " + this.lastName + " a une puissance de " + this.id ;
+  }
+};
+
+// Display data from the object:
+document.getElementById("demo").innerHTML = person.fullName();
+document.getElementById("couleur").innerHTML = person.lastName;
+</script>
+
+</body>
+</html>
