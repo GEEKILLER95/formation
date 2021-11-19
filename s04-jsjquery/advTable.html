@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau suite...</title>
+</head>
+<body>
+    <script>
+        var student = ["marc ", "vinz ", "jim ", "soul ", "kev ", "alex "];
+        var fruit = ["pomme ", "salade ", "banane ", "fraise ", "abricot ", "mandarine ", "banane ", "cerise "];
+        var edate = "A A B A A A A B A A A"; 
+        //fusion de tableau
+        var nimp = fruit.concat(student);
+        document.write(nimp);
+        // indique le 1er élément du tableau
+        var result = fruit.indexOf("banane ");
+        document.write("<br>" + result);
+        // indique le dernier élément du tableau
+        var resultat = fruit.lastIndexOf("banane ");
+        document.write("<br>" + resultat);
+        //supprime le dernier élément du tableau
+        var last = fruit.pop();
+        document.write("<br>" + last);
+        //supprime le premier élément du tableau
+        var shit = fruit.shift();
+        document.write("<br>" + shit);
+        //ajoute des éléments au tableau
+        var pouch = fruit.push("prune ");
+        document.write("<br>" + fruit);
+        //range par ordre alphabétique
+        var ordre = fruit.sort();
+        document.write("<br>" + ordre);
+        //supprime l'élément selectionné 
+        var spit = edate.split("B");
+        document.write("<br>" + spit);
+
+    </script>
+</body>
+</html>
